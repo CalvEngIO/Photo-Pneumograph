@@ -6262,7 +6262,6 @@ Diode with low voltage drop</description>
 <part name="LED12" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED14" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED13" library="SparkFun-LED" deviceset="LED" device="5MM"/>
-<part name="LED15" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED17" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED18" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED19" library="SparkFun-LED" deviceset="LED" device="5MM"/>
@@ -6323,7 +6322,6 @@ Diode with low voltage drop</description>
 <part name="LED30" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED31" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED32" library="SparkFun-LED" deviceset="LED" device="5MM"/>
-<part name="LED33" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED34" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED35" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED36" library="SparkFun-LED" deviceset="LED" device="5MM"/>
@@ -6421,7 +6419,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <instance part="LED12" gate="G$1" x="335.28" y="73.66"/>
 <instance part="LED14" gate="G$1" x="320.04" y="73.66"/>
 <instance part="LED13" gate="G$1" x="312.42" y="73.66"/>
-<instance part="LED15" gate="G$1" x="304.8" y="73.66"/>
 <instance part="LED17" gate="G$1" x="327.66" y="73.66"/>
 <instance part="LED18" gate="G$1" x="342.9" y="73.66"/>
 <instance part="LED19" gate="G$1" x="350.52" y="73.66"/>
@@ -6488,7 +6485,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <instance part="LED30" gate="G$1" x="330.2" y="55.88"/>
 <instance part="LED31" gate="G$1" x="322.58" y="55.88"/>
 <instance part="LED32" gate="G$1" x="314.96" y="55.88"/>
-<instance part="LED33" gate="G$1" x="307.34" y="55.88"/>
 <instance part="LED34" gate="G$1" x="299.72" y="55.88"/>
 <instance part="LED35" gate="G$1" x="289.56" y="55.88"/>
 <instance part="LED36" gate="G$1" x="279.4" y="55.88"/>
@@ -6542,8 +6538,7 @@ Attribution-NonCommercial-ShareAlike</text>
 <wire x1="274.32" y1="66.04" x2="281.94" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="66.04" x2="289.56" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="66.04" x2="297.18" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="66.04" x2="304.8" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="66.04" x2="312.42" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="66.04" x2="312.42" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="66.04" x2="320.04" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="66.04" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="66.04" x2="335.28" y2="66.04" width="0.1524" layer="91"/>
@@ -6576,9 +6571,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <pinref part="LED8" gate="G$1" pin="C"/>
 <wire x1="297.18" y1="68.58" x2="297.18" y2="66.04" width="0.1524" layer="91"/>
 <junction x="297.18" y="66.04"/>
-<pinref part="LED15" gate="G$1" pin="C"/>
-<wire x1="304.8" y1="68.58" x2="304.8" y2="66.04" width="0.1524" layer="91"/>
-<junction x="304.8" y="66.04"/>
 <pinref part="LED13" gate="G$1" pin="C"/>
 <wire x1="312.42" y1="68.58" x2="312.42" y2="66.04" width="0.1524" layer="91"/>
 <junction x="312.42" y="66.04"/>
@@ -6643,12 +6635,9 @@ Attribution-NonCommercial-ShareAlike</text>
 <pinref part="LED32" gate="G$1" pin="C"/>
 <wire x1="322.58" y1="50.8" x2="314.96" y2="50.8" width="0.1524" layer="91"/>
 <junction x="322.58" y="50.8"/>
-<pinref part="LED33" gate="G$1" pin="C"/>
-<wire x1="314.96" y1="50.8" x2="307.34" y2="50.8" width="0.1524" layer="91"/>
 <junction x="314.96" y="50.8"/>
 <pinref part="LED34" gate="G$1" pin="C"/>
-<wire x1="307.34" y1="50.8" x2="299.72" y2="50.8" width="0.1524" layer="91"/>
-<junction x="307.34" y="50.8"/>
+<wire x1="314.96" y1="50.8" x2="299.72" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="LED35" gate="G$1" pin="C"/>
 <wire x1="299.72" y1="50.8" x2="289.56" y2="50.8" width="0.1524" layer="91"/>
 <junction x="299.72" y="50.8"/>
@@ -6821,8 +6810,7 @@ Attribution-NonCommercial-ShareAlike</text>
 <wire x1="274.32" y1="78.74" x2="281.94" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="78.74" x2="289.56" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="78.74" x2="297.18" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="78.74" x2="304.8" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="78.74" x2="312.42" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="78.74" x2="312.42" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="78.74" x2="320.04" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="78.74" x2="327.66" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="78.74" x2="335.28" y2="78.74" width="0.1524" layer="91"/>
@@ -6846,9 +6834,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <pinref part="LED13" gate="G$1" pin="A"/>
 <wire x1="312.42" y1="76.2" x2="312.42" y2="78.74" width="0.1524" layer="91"/>
 <junction x="312.42" y="78.74"/>
-<pinref part="LED15" gate="G$1" pin="A"/>
-<wire x1="304.8" y1="76.2" x2="304.8" y2="78.74" width="0.1524" layer="91"/>
-<junction x="304.8" y="78.74"/>
 <pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="297.18" y1="76.2" x2="297.18" y2="78.74" width="0.1524" layer="91"/>
 <junction x="297.18" y="78.74"/>
@@ -6929,7 +6914,6 @@ Attribution-NonCommercial-ShareAlike</text>
 <junction x="289.56" y="58.42"/>
 <wire x1="299.72" y1="58.42" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
 <junction x="299.72" y="58.42"/>
-<pinref part="LED33" gate="G$1" pin="A"/>
 <wire x1="309.88" y1="58.42" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
 <junction x="307.34" y="58.42"/>
 <pinref part="LED32" gate="G$1" pin="A"/>
